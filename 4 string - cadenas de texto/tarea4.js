@@ -18,5 +18,7 @@ console.log(primerletra=estudiante.charAt(10));
 console.log(ultimaletra=estudiante.charAt(25));
 // - Una cadena de texto que elimine los espacios de la variable "estudiante"
 console.log(estudiante.trim().length); 
+
+console.log(estudiante.split(' ').join('').length);
 // - Una variable booleana que diga si el Nombre está contenido en la variable "estudiante"
 console.log(estudiante.includes(`${nombre}`)); 

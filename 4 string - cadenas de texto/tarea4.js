@@ -11,14 +11,14 @@ console.log(estudiamteMayus=estudiante.toUpperCase());
 // - Una cadena de texto que se llame "estudianteMinus" que contenga la cadena estudiante pero todo en minúsculas
 console.log(estudiamteMinus=estudiante.toLowerCase());
 // - Una variable que contenga el número de letras de la cadena "estudiante" contando los espacios
-console.log(estudiante.length);
+console.log(nroletra=estudiante.length);
 // - Una variable que contenga la primera letra del Nombre
 console.log(primerletra=estudiante.charAt(10));
 // - Otra variable que contenga la última letra del Apellido
 console.log(ultimaletra=estudiante.charAt(25));
 // - Una cadena de texto que elimine los espacios de la variable "estudiante"
-console.log(estudiante.trim().length); 
+console.log(sinespacioinicioyfin=estudiante.trim()); 
 //eliminar el total de espacios, no solo del principiio y final
-console.log(estudiante.split(' ').join('').length);
+console.log(sinespacio = estudiante.split(' ').join(''));
 // - Una variable booleana que diga si el Nombre está contenido en la variable "estudiante"
-console.log(estudiante.includes(`${nombre}`)); 
+console.log(varboolean=estudiante.includes(`${nombre}`)); 

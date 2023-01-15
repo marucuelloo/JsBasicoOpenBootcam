@@ -20,7 +20,7 @@ null;
 undefined;
 // null, undefined, false, 0 ==> Todas son Falsy
 //null no es lo mismo que undefined
-console.log(null===undefined )
+console.log(null===undefined)
 
 if (true) {
     console.log("cumple")

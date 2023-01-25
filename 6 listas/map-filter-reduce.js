@@ -5,6 +5,12 @@ const array=["cordoba", "bs as", "mendoza", "san luis"];
 
 //map() agregarle valores al array 
 
+// La función map recorre cada elemento de la lista original y 
+//aplica una función a cada uno de ellos. En este caso, la función 
+//es pelicula => pelicula.director, lo que significa que para cada elemento 
+//"pelicula" de la lista original, se tomará su valor "director" y se agregará 
+//a una nueva lista "directores".
+
 const vale=array.forEach(v=>{
     console.log(v); //cordoba, bs as, mendoza, san luis 
     return 4 

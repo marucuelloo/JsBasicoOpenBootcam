@@ -1,4 +1,4 @@
-// Crea un archivo JS que contenga las siguientes líneas
+1// Crea un archivo JS que contenga las siguientes líneas
 // - Una función sin parámetros que devuelva siempre "true"
 function sinParam() {
     console.log(true);
@@ -37,19 +37,20 @@ miPromesa2
 // - Una función generadora de índices pares automáticos
 
 function* evenNumberGenerator() {
-    let index = 0;
+    let index = 0; //si lo pongo debajo del if me imprime cero
     while (true) {
+        index++;
         if (index % 2 === 0) {
             yield index;
         }
-        index++;
+        
     }
 }
 
 const evenNumbers = evenNumberGenerator();
-console.log(evenNumbers.next().value); // 0
-console.log(evenNumbers.next().value); // 2
 console.log(evenNumbers.next().value); //4
-console.log(evenNumbers.next().value); // 6
+console.log(evenNumbers.next().value); //6...
+console.log(evenNumbers.next().value); 
+console.log(evenNumbers.next().value); 
 
 

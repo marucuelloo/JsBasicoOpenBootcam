@@ -1,0 +1,8 @@
+{"level":"info","message":"Hola, esto es un mensaje personalizado"}
+{"level":"info","message":"Hola, esto es un mensaje personalizado"}
+{"level":"error","message":"Esto es un error, porque se ingreso un valor no 'string'"}
+{"level":"info","message":"Hola, esto es un mensaje personalizado"}
+{"level":"error","message":"Esto es un error, porque no se ingreso un valor de tipo string"}
+{"level":"info","message":"Hola, esto es un mensaje personalizado"}
+{"level":"info","message":"Hola, esto es un mensaje personalizado"}
+{"level":"error","message":"Esto es un error, porque no se ingreso un valor de tipo string"}

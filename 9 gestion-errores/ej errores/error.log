@@ -1,0 +1,3 @@
+{"level":"error","message":"Esto es un error, porque se ingreso un valor no 'string'"}
+{"level":"error","message":"Esto es un error, porque no se ingreso un valor de tipo string"}
+{"level":"error","message":"Esto es un error, porque no se ingreso un valor de tipo string"}

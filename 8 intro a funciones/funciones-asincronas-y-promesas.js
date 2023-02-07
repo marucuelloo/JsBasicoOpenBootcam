@@ -27,3 +27,6 @@ miPromesa
 .then(()=>console.log("se ha ejecutado"))  //cuando se ejecute de forma correcta hace esto
 .catch(()=>console.log("ERROR"))  //cuando da 0
 .finally(()=>console.log("yo me ejecuto siempre"))  //se ejecuta siempre 
+
+
+

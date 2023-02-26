@@ -11,6 +11,6 @@ function factorial(a){
 console.log(factorial(10))
 
 
-//para no tener wur copar toda la funcion podemos con js modularizar el proyecto 
+//para no tener que copiar toda la funcion podemos con js modularizar el proyecto 
 //un archivo centralizado donde estan todas las funciones y luego se llaman de los distintos archivos
 

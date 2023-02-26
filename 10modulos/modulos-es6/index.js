@@ -1,4 +1,9 @@
 // import{suma, eleva, nombre}from './modulos/mate.js'
+// const sum=suma(4,12)
+// console.log(sum)
+// const potencia=eleva(2,21)
+// console.log(potencia )
+// console.log(nombre)
 
 //si quieramos todas las prop, metodos del modulo
 import * as moduloMatematicas from './modulos/mate.js'

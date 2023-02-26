@@ -11,7 +11,7 @@ import chalk from 'chalk';
 
 
 const sum=controller.suma(4,5)
-console.log(chalk.green(sum))
+console.log(chalk.red(sum))
 
 const mult=controller.multiplica(1,2)
 console.log(chalk.green(mult))

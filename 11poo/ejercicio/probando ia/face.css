@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 1rem;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  textarea {
+    resize: none;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .publicacion {
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+  }
+  
+  .publicacion img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    border-radius: 50%;
+  }
+  
+  .publicacion h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .publicacion p {
+    margin: 0;
+  }
+  
+  footer {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+  }

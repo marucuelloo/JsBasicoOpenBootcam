@@ -34,6 +34,7 @@ class Persona {
     }
 
 }
+//extends para que herede la clase persona
 class Desarrollador extends Persona {
     //tiene herencia de persona -> extends
     constructor(nombre, edad, lenguaje){
@@ -41,11 +42,13 @@ class Desarrollador extends Persona {
         // this.edad=edad  
         //esto no se puede hacer xq la clase padre ya tiene un constructor con nombre y edad, lo que se hace es:
         //la palabra super con nombre y edad de la clase padre 
+        //nos permite usar el constructor de la clase padre 
         super(nombre, edad)
         this.lenguaje=lenguaje
 
 
     }
+    //polimorfismos 
     //definir nuevamente el metodo saludo
     //estamos reescribiendo la definicion del metodo saludo 
     saludo(){  //Override (volver a definir algo que ya estaba definido)

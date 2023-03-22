@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "introduccion-string.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint-fix":"eslint --fix ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,11 @@
+{
+
+    "rules": {
+      
+        "eqeqeq": "warn",
+        "strict": "off",
+       "quotes": ["warn", "double"],
+       "semi":["error", "never"],
+       "no-dupe-keys": "error"
+    }
+}
